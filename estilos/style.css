@@ -8,9 +8,70 @@
 }
 
 body {
-          background-color: #49a09d;
+          background-image: linear-gradient(#4952a0, white);
           height: 100vh;
           width: 100vw;
+}
+
+div#formulario > h1 {
+          margin-bottom: 10px;
+          text-align: center;
+}
+
+div#formulario > p {
+          font-size: 0.8em;
+}
+
+div.campo > label {
+          display: none;
+}
+
+form > input[type=submit] {
+          background-color: #4952a0; 
+          border: none;
+          border-radius: 5px;
+          color: white;
+          cursor: pointer;
+          display: block;
+          font-size: 1em;
+          height: 50px;
+          width: 97%;
+}
+
+form > input[type=submit]:hover {
+          background-color: #6a74e4;
+}
+
+form > a.botao {
+          background-color: white;
+          border: 1px solid #5058ad;
+          border-radius: 7px;
+          color: #42498f;
+          display: block;
+          font-size: 1em;
+          height: 50px;
+          margin: 5px; 
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          width: 97%;
+}
+
+form > a.botao:hover {
+          background-color: #8891f5;
+}
+
+form > a.botao > i {
+          font-size: 1em;
+}
+
+form > div.campo {
+          background-color: #42498f;
+          border-radius: 5px;
+          display: block;
+          height: 50px;
+          margin: 5px 0px;
+          width: 97%;
 }
 
 main {
@@ -23,7 +84,7 @@ section#login {
           background-color: white;
           border-radius: 20px;
           box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.404);
-          height: 500px;
+          height: 515px;
           left: 50%;
           overflow: hidden;
           position: absolute;
@@ -31,16 +92,16 @@ section#login {
           transition: width 0.3s, height 0.3s;
           transition-timing-function: ease;
           top: 50%;
-          width: 250px;
+          width: 300px;
 }
 
-section#login > div#fomulario {
+section#login > div#formulario {
           display: block;
-          padding: 10px;
-}
+          padding-left: 10px;
+}          
 
 section#login > div#imagem {
-          background: #49a09d url(../imagens/pexels-nickcollins-1292998\ \(1\).jpg);
+          background: #49a077 url(../imagens/pexels-nickcollins-1292998\ \(1\).jpg);
           background-position: center;
           background-size: cover;
           display: block;
