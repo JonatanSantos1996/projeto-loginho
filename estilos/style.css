@@ -29,7 +29,7 @@ div.campo > input {
           font-size: 1em;
           height: 100%;
           padding: 4px;
-          transform: translateY(-8px);
+          transform: translateY(-8.2px);
           width: calc(100% - 45px);
 }
 
