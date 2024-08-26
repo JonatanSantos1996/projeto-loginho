@@ -45,7 +45,7 @@ div.campo > span {
           color: white;
           font-size: 2em;
           padding: 5px;
-          width: 40px;
+          width: 50px;
 }
 
 form > a.botao {
@@ -76,8 +76,8 @@ form > div.campo {
           border: 2px solid #42498f;
           border-radius: 8px;
           display: block;
-          height: 50px;
-          margin: 5px 0px;
+          height: 0px;
+          margin: 50px 0px;
           width: 97%;
 }
 
