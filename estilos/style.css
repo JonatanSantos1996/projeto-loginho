@@ -26,7 +26,7 @@ div.campo > input {
           background-color: #8891f5;
           border: 0px;
           border-radius: 8px;
-          font-size: 1em;
+          font-size: 1.1em;
           height: 100%;
           padding: 4px;
           transform: translateY(-8px);
@@ -43,7 +43,7 @@ div.campo > label {
 
 div.campo > span {
           color: white;
-          font-size: 2.05em;
+          font-size: 2em;
           padding: 5px;
           width: 40px;
 }
