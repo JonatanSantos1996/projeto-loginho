@@ -26,10 +26,10 @@ div.campo > input {
           background-color: #8891f5;
           border: 0px;
           border-radius: 8px;
-          font-size: 1.1em;
+          font-size: 1em;
           height: 100%;
-          padding: 4px;
-          transform: translateY(-8px);
+          padding: 5px;
+          transform: translateY(-9px);
           width: calc(100% - 45px);
 }/* parte de dentro da primeira e segunda caixa*/
 
