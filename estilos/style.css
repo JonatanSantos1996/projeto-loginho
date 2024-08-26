@@ -29,9 +29,9 @@ div.campo > input {
           font-size: 1em;
           height: 100%;
           padding: 4px;
-          transform: translateY(-8.2px);
+          transform: translateY(-8px);
           width: calc(100% - 45px);
-}
+}/* parte de dentro da primeira e segunda caixa*/
 
 div.campo > input:focus-within {
           background-color: white;
@@ -43,9 +43,9 @@ div.campo > label {
 
 div.campo > span {
           color: white;
-          font-size: 2em;
+          font-size: 2.05em;
           padding: 5px;
-          width: 50px;
+          width: 40px;
 }
 
 form > a.botao {
@@ -56,12 +56,12 @@ form > a.botao {
           display: block;
           font-size: 1em;
           height: 50px;
-          margin-top: 5px; 
+          margin-top: 10px; 
           padding-top: 11px;
           text-align: center;
           text-decoration: none;
           width: 97%;
-}
+} /* segundo botao */
 
 form > a.botao:hover {
           background-color: #8891f5;
@@ -76,8 +76,8 @@ form > div.campo {
           border: 2px solid #42498f;
           border-radius: 8px;
           display: block;
-          height: 0px;
-          margin: 50px 0px;
+          height: 50px;
+          margin: 5px 0px;
           width: 97%;
 }
 
@@ -91,7 +91,7 @@ form > input[type=submit] {
           font-size: 1em;
           height: 50px;
           width: 97%;
-}
+} /* primeiro botao */
 
 form > input[type=submit]:hover {
           background-color: #6a74e4;
