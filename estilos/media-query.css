@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@media screen and (min-width: 768px){
+@media screen and (min-width: 768px) and (max-width: 992px){
           body {
                     background-image: linear-gradient(to top, #49a09d, #5f2c82);
           }
@@ -11,79 +11,6 @@
 
           div#formulario > p {
                     font-size: 1em;
-          }
-
-          div.campo > input {
-                    background-color: #8891f5;
-                    border: 2px solid #8891f5;
-                    border-radius: 7px;
-                    font-size: 1em;
-                    height: 100%;
-                    padding: 5px;
-                    transform: translateY(-9px);
-                    width: calc(100% - 45px);
-          }
-
-          form > div.campo {
-                    background-color: #42498f;
-                    border: 3px solid #42498f;
-                    border-radius: 7px;
-                    display: block;
-                    height: 50px;
-                    margin: 5px 0px;
-                    width: 97%;
-          }
-
-          
-          section#login {
-                    height: 310px;
-                    width: 80vw;
-          }
-
-          section#login > div#imagem {
-                    float: left;
-                    height: 100%;
-                    width: 30%;
-          }
-
-          section#login > div#formulario {
-                    float: right;
-                    width: 70%;
-          }
-}/* celulares */
-
-@media screen and (min-width: 992px){
-          body {
-                    background-image: linear-gradient(to top, #49a09d, #5f2c82);
-          }
-
-          div#formulario > h1 {
-                    font-size: 1.5emw;
-          }
-
-          div#formulario > p {
-                    font-size: 1em;
-          }
-
-          div.campo > input {
-                    background-color: #8891f5;
-                    border: 2px solid #8891f5;
-                    border-radius: 7px;
-                    font-size: 1em;
-                    height: 100%;
-                    padding: 5px;
-                    transform: translateY(-9px);
-                    width: calc(100% - 45px);
-          }
-
-          form > div.campo {
-                    background-color: #42498f;
-                    border: 3px solid #42498f;
-                    border-radius: 7px;
-                    display: block;
-                    height: 50px;
-                    margin: 5px 0px;
-                    width: 97%;
           }
 
           section#login {
@@ -101,7 +28,7 @@
                     float: right;
                     width: 70%;
           }
-} /*tablet*/
+}/* celulares */
 
 @media screen and (min-width: 1200px) {
           body {
@@ -125,7 +52,7 @@
                     height: 100%;
                     padding: 5px;
                     transform: translateY(-9px);
-                    width: calc(100% - 45px);
+                    width: calc(100% - 46px);
           }
 
           form > div.campo {

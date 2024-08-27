@@ -29,8 +29,8 @@ div.campo > input {
           font-size: 1em;
           height: 100%;
           padding: 5px;
-          transform: translateY(-9px);
-          width: calc(100% - 45px);
+          transform: translateY(-10px);
+          width: calc(100% - 46px);
 }/* parte de dentro da primeira e segunda caixa*/
 
 div.campo > input:focus-within {
