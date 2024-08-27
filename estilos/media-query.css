@@ -52,7 +52,7 @@
                     height: 100%;
                     padding: 5px;
                     transform: translateY(-9px);
-                    width: calc(100% - 46px);
+                    width: calc(100% - 45px);
           }
 
           form > div.campo {
