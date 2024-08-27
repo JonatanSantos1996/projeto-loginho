@@ -29,7 +29,7 @@ div.campo > input {
           font-size: 1em;
           height: 100%;
           padding: 5px;
-          transform: translateY(-11px);
+          transform: translateY(-10px);
           width: calc(100% - 45px);
 }/* parte de dentro da primeira e segunda caixa*/
 
@@ -73,7 +73,7 @@ form > a.botao > i {
 
 form > div.campo {
           background-color: #42498f;
-          border: 3px solid #42498f;
+          border: 3.5px solid #42498f;
           border-radius: 7px;
           display: block;
           height: 50px;
